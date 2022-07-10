@@ -1,0 +1,21 @@
+.about {
+  max-width: 1300px;
+  margin: 0 auto;
+  display: grid;
+  gap: 0rem;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+}
+.section {
+  height: 700px;
+  width: 100%;
+
+  .section_text {
+    font-size: large;
+  }
+  .photo {
+    background-image: url("./../../public/mohit1.jpg");
+    height: 100%;
+    background-position: center center;
+    background-size: cover;
+  }
+}
