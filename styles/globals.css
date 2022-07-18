@@ -21,10 +21,16 @@ a {
   --text-primary: black;
   --text-secondary: royalblue;
   --accent: purple;
+  --colorR: 255;
+  --colorG: 255;
+  --colorB: 255;
 }
 [data-theme="dark"] {
   --background: black;
   --text-primary: white;
   --text-secondary: grey;
   --accent: darkred;
+  --colorR: 0;
+  --colorG: 0;
+  --colorB: 0;
 }

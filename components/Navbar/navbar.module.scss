@@ -1,10 +1,15 @@
 //@use "../../styles/globals.css" as _;
 .navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  background: var(--background);
+  //background: var(--background);
   color: var(--text-primary);
+  background: rgba(var(--colorR), var(--colorG), var(--colorB), 0.4);
+
   .brand {
     font-size: 1.5rem;
     margin: 0.5rem;
@@ -34,7 +39,8 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  background-color: var(--background);
+  //background-color: var(--background);
+  background-color: rgba(var(--colorR), var(--colorG), var(--colorB), 0.4);
   color: var(--text-primary);
 
   .brand_mobile {

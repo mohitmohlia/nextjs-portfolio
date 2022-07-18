@@ -29,7 +29,7 @@ export default function Home() {
     <div className="app" data-theme={theme}>
       <Navbar />
       <About />
-      {/* <Projects /> */}
+      <Projects />
       <button className={styles.theme_toggle_switch} onClick={switchTheme}>
         switch to {theme === "light" ? "dark" : "light"}
       </button>
