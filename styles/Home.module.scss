@@ -1,5 +1,10 @@
 .theme_toggle_switch {
+  bottom: 30px;
+  height: 2.5rem;
   position: fixed;
-  bottom: 10px;
-  right: 10px;
+  right: 30px;
+  width: 2.5rem;
+}
+.app {
+  background: var(--background);
 }

@@ -57,7 +57,7 @@ function Navbar() {
     );
   } else {
     return (
-      <nav className={style.navbar}>
+      <nav className={style.navbar} id="home">
         <div className={style.brand}>Mohit Mohlia</div>
         <div className={style.link}>
           <ul>

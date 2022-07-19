@@ -1,18 +1,18 @@
 //@use "../../styles/globals.css" as _;
 .navbar {
-  position: fixed;
-  top: 0;
-  width: 100%;
+  height: 10rem;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
-  //background: var(--background);
+
   color: var(--text-primary);
   background: rgba(var(--colorR), var(--colorG), var(--colorB), 0.4);
 
   .brand {
-    font-size: 1.5rem;
+    font-size: 3rem;
     margin: 0.5rem;
+    font-family: Helvetica;
+    //font-variant: small-caps;
   }
   .link {
     color: var(--text-primary);
@@ -26,6 +26,7 @@
           text-decoration: none;
           display: block;
           margin: 1rem;
+          font-size: 2rem;
         }
         :hover {
           color: var(--accent);
@@ -35,9 +36,10 @@
   }
 }
 .navbar_mobile {
+  min-height: 5rem;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   //background-color: var(--background);
   background-color: rgba(var(--colorR), var(--colorG), var(--colorB), 0.4);
@@ -45,7 +47,9 @@
 
   .brand_mobile {
     font-size: 2rem;
-    color: var(--text-secondary);
+    color: var(--text-primary);
+    font-family: Helvetica;
+    font-variant: small-caps;
   }
   .link_mobile {
     margin-top: 0.1rem;
@@ -81,7 +85,7 @@
   }
   .toggle_button {
     position: absolute;
-    top: 0.75rem;
+    top: 1.5rem;
     right: 1rem;
     display: flex;
     flex-direction: column;
