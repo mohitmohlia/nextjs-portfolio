@@ -6,6 +6,7 @@ import About from "../components/About";
 import Projects from "../components/Projects";
 import bulbOff from "../public/bulbOff.png";
 import bulbOn from "../public/bulbOn.png";
+import Skills from "../components/Skills";
 export default function Home() {
   const [theme, setTheme] = useState("dark");
   useEffect(() => {
@@ -32,6 +33,7 @@ export default function Home() {
     <div className={styles.app} data-theme={theme}>
       <Navbar />
       <About />
+      <Skills />
       <Projects />
       <div className={styles.theme_toggle_switch}>
         <Image

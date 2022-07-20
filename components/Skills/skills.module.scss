@@ -1,0 +1,94 @@
+.skills_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .progressBar_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--text-primary);
+    width: 100%;
+    .progressBar_text {
+      max-width: 1000px;
+      text-align: end;
+      width: 80%;
+    }
+    .container {
+      border-radius: 1rem;
+      width: 80%;
+      max-width: 1000px;
+      background: grey;
+      margin-bottom: 2rem;
+      margin-top: 1rem;
+
+      .javascript_bar {
+        width: 90%;
+        height: 30px;
+        background: var(--text-primary);
+        box-shadow: 0 0 30px white;
+        border-radius: 1rem;
+        animation: jsBar 2s 5;
+      }
+      .react_bar {
+        width: 85%;
+        height: 30px;
+        background: var(--text-primary);
+        box-shadow: 0 0 30px white;
+        border-radius: 1rem;
+        animation: reactBar 2s 5;
+      }
+      .HTMLCSS_bar {
+        width: 80%;
+        height: 30px;
+        background: var(--text-primary);
+        box-shadow: 0 0 30px white;
+        border-radius: 1rem;
+        animation: HtmlBar 2s 5;
+      }
+      .NextJS_bar {
+        width: 60%;
+        height: 30px;
+        background: var(--text-primary);
+        border-radius: 1rem;
+        box-shadow: 0 0 30px white;
+        animation: nextjsBar 2s 5;
+      }
+    }
+  }
+}
+@keyframes jsBar {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 90%;
+  }
+}
+
+@keyframes reactBar {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 85%;
+  }
+}
+
+@keyframes HtmlBar {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 80%;
+  }
+}
+
+@keyframes nextjsBar {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 60%;
+  }
+}
