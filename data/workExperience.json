@@ -1,0 +1,58 @@
+[
+  {
+    "heading": "Senior Software Engineer",
+    "subHeading": "Edjx | Noida",
+    "timeline": "July, 2022 - present",
+    "iconPath": "",
+    "intro": "EDJX is a distributed edge computing platform and decentralized peer to peer marketplace created to meet the exponential demand growth for data processing that will serve trillions of mobile, loT, Web 3.0, and personal devices at the edge."
+  },
+  {
+    "heading": "Software Engineer - 2",
+    "subHeading": "Logichub | Noida",
+    "timeline": "Oct, 2021 - June, 2021",
+    "iconPath": "",
+    "intro": "Part of frontend team which enables services like AI & Automation, Driven Detection & Response | MDR+ | SOAR+ | XDR+"
+  },
+  {
+    "heading": "Software Engineer - 2",
+    "subHeading": "Q3 Technology | Gurgaon",
+    "timeline": "2020 - Sept, 2021",
+    "iconPath": "",
+    "intro": "Maintained a train ticket booking website called AvantiWestCoast that operates in London"
+  },
+  {
+    "heading": "Junior Software Engineer",
+    "subHeading": "Q3 Technology | Gurgaon",
+    "timeline": "Aug, 2019 - 2020",
+    "iconPath": "",
+    "intro": ".Net training and project learning"
+  },
+  {
+    "heading": "Intern at SPI Incubator",
+    "subHeading": "Technology Innovator | Bangalore",
+    "timeline": "2018 Summer Internship",
+    "iconPath": "",
+    "intro": "Devised Low-cost techniques to implement Vertical Farming project. Provide technical support to designers, suppliers, engineers and other team members throughout the product development and implementation process. Select hardware and material, assuring compliance with specifications and product requirements."
+  },
+  {
+    "heading": " Bachelor of Engineering in Electronics and Communication",
+    "subHeading": "Netaji Subash Institute of Technology | New Delhi, Dwarka",
+    "timeline": "2015-2019",
+    "iconPath": "",
+    "intro": "GPA : 7.0"
+  },
+  {
+    "heading": "Hans Raj Model School | Punjabi Bagh",
+    "subHeading": "High School | Non Medical Stream",
+    "timeline": "2013-2015",
+    "iconPath": "",
+    "intro": "12th CBSE Boards : 91.1%"
+  },
+  {
+    "heading": "Hans Raj Model School | Punjabi Bagh",
+    "subHeading": "Primary School",
+    "timeline": "2003-2013",
+    "iconPath": "",
+    "intro": "10th Standard CGPA : 8.8"
+  }
+]

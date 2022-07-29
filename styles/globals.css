@@ -20,7 +20,7 @@ a {
   --background: white;
   --text-primary: black;
   --text-secondary: royalblue;
-  --accent: purple;
+  --accent: #1eecff;
 
   --colorR: 255;
   --colorG: 255;
@@ -30,7 +30,7 @@ a {
   --background: black;
   --text-primary: white;
   --text-secondary: #808080;
-  --accent: rgb(255, 251, 0);
+  --accent: #ff311e;
   --colorR: 0;
   --colorG: 0;
   --colorB: 0;
