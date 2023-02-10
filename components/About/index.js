@@ -37,13 +37,13 @@ function About() {
         </section>
       </div>
       <div className={style.intro_div}>
-        <section className={style.intro}>
+        {/* <section className={style.intro}>
           Hey! I'm Mohit Mohlia, a {getAge("04-12-1996")} year old residing in
           New Delhi, India. Current working as a Senior Software Engineer at
           Edjx. I graduated from NSIT in 2019 from Electronics and Communication
           branch. I consider myself to be an ambivert, and a team player ......
           more about my skills.
-        </section>
+        </section> */}
       </div>
     </div>
   );
