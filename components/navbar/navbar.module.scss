@@ -1,0 +1,102 @@
+//@use "../../styles/globals.css" as _;
+.navbar {
+  height: 10rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  color: var(--text-primary);
+  background: rgba(var(--colorR), var(--colorG), var(--colorB), 0.4);
+
+  .brand {
+    font-size: 3rem;
+    margin: 0.5rem;
+    font-family: Helvetica;
+    //font-variant: small-caps;
+  }
+  .link {
+    color: var(--text-primary);
+    ul {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      li {
+        list-style: none;
+        a {
+          text-decoration: none;
+          display: block;
+          margin: 1rem;
+          font-size: 2rem;
+        }
+        :hover {
+          color: var(--accent);
+        }
+      }
+    }
+  }
+}
+.navbar_mobile {
+  min-height: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  //background-color: var(--background);
+  background-color: rgba(var(--colorR), var(--colorG), var(--colorB), 0.4);
+  color: var(--text-primary);
+
+  .brand_mobile {
+    font-size: 2rem;
+    color: var(--text-primary);
+    font-family: Helvetica;
+    font-variant: small-caps;
+  }
+  .link_mobile {
+    margin-top: 0.1rem;
+    color: var(--text-primary);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+    ul {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      width: 100%;
+      background-color: var(--background);
+      flex-direction: column;
+      li {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        a {
+          text-decoration: none;
+          display: block;
+          margin: 1rem;
+        }
+        color: var(--text-primary);
+      }
+      :hover {
+        color: var(--text-secondary);
+        background-color: black;
+      }
+    }
+  }
+  .toggle_button {
+    position: absolute;
+    top: 1.5rem;
+    right: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 23px;
+    .bar {
+      background-color: var(--text-primary);
+      width: 100%;
+      height: 3px;
+      border-radius: 10px;
+    }
+  }
+}
