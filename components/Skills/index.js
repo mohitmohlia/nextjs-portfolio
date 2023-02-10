@@ -2,7 +2,7 @@ import style from "./skills.module.scss";
 import Image from "next/image";
 import JS from "../../public/js.png";
 import HTML from "../../public/html.png";
-import NEXTJS from "../../public/nextjs.png";
+// import NEXTJS from "../../public/nextjs.png";
 import NEXTJSSVG from "../../public/nextjs.svg";
 import REACT from "../../public/react.png";
 import REDUX from "../../public/redux.png";
