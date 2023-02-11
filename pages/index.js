@@ -1,12 +1,13 @@
 import Image from "next/image";
-import Navbar from "../components/Navbar";
+import Navbar from "../components/navbar";
 import { useEffect, useState } from "react";
 import styles from "../styles/Home.module.scss";
-import About from "../components/About";
-import Projects from "../components/Projects";
-import BulbOff from "../public/bulbOff.png";
-import BulbOn from "../public/bulbOn.png";
-import Skills from "../components/Skills";
+import About from "../components/about";
+import Projects from "../components/projects";
+import bulbOff from "../public/bulboff.png";
+import bulbOn from "../public/bulbon.png";
+import Skills from "../components/skills";
+
 export default function Home() {
   const [theme, setTheme] = useState("dark");
   useEffect(() => {
@@ -29,6 +30,7 @@ export default function Home() {
     setTheme(newTheme);
     localStorage.setItem("app-theme", newTheme);
   }
+
   return (
     <div className={styles.app} data-theme={theme}>
       <Navbar />
@@ -39,7 +41,7 @@ export default function Home() {
         <Image
           //className={styles.theme_toggle_switch}
           onClick={switchTheme}
-          src={theme === "light" ? BulbOff : BulbOn}
+          src={theme === "light" ? bulbOff : bulbOn}
           width="80"
           height="80"
         />
