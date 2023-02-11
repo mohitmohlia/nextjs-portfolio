@@ -4,8 +4,8 @@ import { useEffect, useState } from "react";
 import styles from "../styles/Home.module.scss";
 import About from "../components/About";
 import Projects from "../components/Projects";
-import bulbOff from "../public/bulbOff.png";
-import bulbOn from "../public/bulbOn.png";
+import BulbOff from "../public/bulbOff.png";
+import BulbOn from "../public/bulbOn.png";
 import Skills from "../components/Skills";
 export default function Home() {
   const [theme, setTheme] = useState("dark");
@@ -39,7 +39,7 @@ export default function Home() {
         <Image
           //className={styles.theme_toggle_switch}
           onClick={switchTheme}
-          src={theme === "light" ? bulbOff : bulbOn}
+          src={theme === "light" ? BulbOff : BulbOn}
           width="80"
           height="80"
         />
