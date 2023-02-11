@@ -31,8 +31,8 @@ a {
 [data-theme="dark"] {
   --background-primary: #212121;
   --background-secondary :#000:
-  --text-primary: rgb(205, 205, 205);
-  --text-secondary: #808080;
+  --text-primary: white
+  --text-secondary: white;
   --accent: #ff311e;
   --colorR: 0;
   --colorG: 0;
