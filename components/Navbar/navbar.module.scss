@@ -6,7 +6,8 @@
   align-items: center;
 
   color: var(--text-primary);
-  background: rgba(var(--colorR), var(--colorG), var(--colorB), 0.4);
+  //background: rgba(var(--colorR), var(--colorG), var(--colorB), 0.4);
+  background-color: var(--background-primary);
 
   .brand {
     font-size: 3rem;
@@ -29,7 +30,7 @@
           font-size: 2rem;
         }
         :hover {
-          color: var(--accent);
+          //color: var(--accent);
         }
       }
     }
@@ -41,7 +42,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  //background-color: var(--background);
+  //background-color: var(--background-primary);
   background-color: rgba(var(--colorR), var(--colorG), var(--colorB), 0.4);
   color: var(--text-primary);
 
@@ -64,7 +65,7 @@
       padding: 0;
       display: flex;
       width: 100%;
-      background-color: var(--background);
+      background-color: var(--background-primary);
       flex-direction: column;
       li {
         list-style: none;

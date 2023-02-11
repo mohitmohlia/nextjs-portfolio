@@ -17,7 +17,8 @@ a {
 }
 
 :root {
-  --background: white;
+  --background-primary: #FAFAFA;
+  --background-second:#808080;
   --text-primary: black;
   --text-secondary: royalblue;
   --accent: #1eecff;
@@ -26,12 +27,18 @@ a {
   --colorG: 255;
   --colorB: 255;
 }
+
 [data-theme="dark"] {
-  --background: black;
-  --text-primary: white;
+  --background-primary: #212121;
+  --background-secondary :#000:
+  --text-primary: rgb(205, 205, 205);
   --text-secondary: #808080;
   --accent: #ff311e;
   --colorR: 0;
   --colorG: 0;
   --colorB: 0;
+}
+::selection {
+  background-color: rgb(255, 32, 106);
+  color: white;
 }
